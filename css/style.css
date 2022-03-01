@@ -1,97 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+
 body{
     font-family: 'Poppins', sans-serif;
-}
-
-.navbar-brand{
-    font-weight: 700;
-    color: #009432 !important;
-}
-
-.navbar-brand .house{
-    color: #f1c40f !important;
+    position: relative;
 }
 
 .navbar{
     background: #ecf1f4;
-    padding: 20px 0 !important;
 }
+
 .navbar .nav-item{
     margin: 0;
     padding: 0;
 }
+
 .navbar .nav-item .nav-link{
     font-size: 15px;
     font-weight: 500;
     color: #636972 !important;
-    margin: 0 15px;
-    padding: 0;
-    transition: all .4s ease-in-out;
+    transition: all .4 ease-in-out;
 }
+
 .navbar .nav-item .nav-link:hover{
-    color: #55bc7e !important;
+    color: #009432 !important;
+  transition: all .2 ease-in-out !important;
 }
 
-.navbar .main-btn{
-    background: #55bc7e !important;
-    text-decoration: none;
+.navbar .btn-search{
+    background: #78e08f;
     color: #fff !important;
-    font-size: 15px;
-    font-weight: 500;
     padding: 15px 45px;
-    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 15px;
     transition: all .4s ease-in-out;
 }
-.navbar .main-btn:hover{
-    background: #49A16c !important;
-    color: #000 !important;
 
+.navbar .btn-search:hover{
+    background:  #05c46b !important;
+    color: #000 !important;
+}
+
+/* Hero section */
+.judul-produk{
+    font-size: 35px;
+    font-weight: 600;
 }
 
 
-@media (max-width: 576px) { 
-    .navbar-brand{
-        font-weight: 700;
-        color: #009432 !important;
-    }
-    
-    .navbar-brand .house{
-        color: #f1c40f !important;
-    }
-    
-    .navbar{
-        background: #ecf1f4;
-        padding: 20px 0 !important;
-    }
-    .navbar .nav-item{
-        margin: 0;
-        padding: 0;
-    }
-    .navbar .nav-item .nav-link{
-        font-size: 18px;
-        font-weight: 500;
-        color: #636972 !important;
-        margin: 0 15px;
-        padding: 5px;
-        transition: all .4s ease-in-out;
-    }
-    .navbar .nav-item .nav-link:hover{
-        color: #55bc7e !important;
-    }
-    
-    .navbar .main-btn{
-        background: #49A16c !important;
-        color: #fff !important;
-        margin: 12px 10px 5px 11px;
-        width: 83%;
-        text-align: center;
-    }
-    .navbar .main-btn:hover{
-        background: #49A16c !important;
-        color: #000 !important;
-    
-    }
- }
+.btn-promo{
+    background: #ffd32a;
+    color: #000 !important;
+    padding: 15px 45px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+}
